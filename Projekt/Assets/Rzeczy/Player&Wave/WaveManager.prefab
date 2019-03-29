@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4022322775309997447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4022322775309997445}
+  - component: {fileID: 4022322775309997446}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4022322775309997445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022322775309997447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9032638, y: -3.6038294, z: 6.0688415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4022322775309997446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022322775309997447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a7eb8e712522e4cb6e6b38e5dd4f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 4022322775309997446}
+  start: {fileID: 8080603586501153160, guid: b524aaf73f663ae489ecb09a1b9a85c1, type: 3}
+  complete: {fileID: 6653519298630257678, guid: 10a1fb5168dc3304d88c919cfa217cc7,
+    type: 3}
+  nameWave: {fileID: 0}
+  waves:
+  - name: Wave 1
+    enemy:
+    - {fileID: 4072038704890542242, guid: cc5c6b19054d9384b9c4a2ef4ce3eabf, type: 3}
+    count: 4
+    rate: 1
+  - name: Wave 2
+    enemy:
+    - {fileID: 4072038704890542242, guid: cc5c6b19054d9384b9c4a2ef4ce3eabf, type: 3}
+    - {fileID: 8058371176288571745, guid: f85b76fe714258349aa0a5b654759d4f, type: 3}
+    count: 6
+    rate: 1
+  - name: Wave 3
+    enemy:
+    - {fileID: 4072038704890542242, guid: cc5c6b19054d9384b9c4a2ef4ce3eabf, type: 3}
+    - {fileID: 8058371176288571745, guid: f85b76fe714258349aa0a5b654759d4f, type: 3}
+    - {fileID: 2909668133008195061, guid: ea1a7c0d02d19ff459eafc8504dc1fc6, type: 3}
+    count: 8
+    rate: 1
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  nextWave: 0
+  timeBetweenWaves: 5
+  waveCountdown: 0
+  searchCountdown: 1
