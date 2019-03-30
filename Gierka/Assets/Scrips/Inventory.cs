@@ -7,7 +7,6 @@ public class Inventory : MonoBehaviour
     private Canvas inventory;
     public PlayerLook look;
     public PlayerMove move;
-    public Eyes eye;
 
     void Start()
     {
@@ -25,7 +24,6 @@ public class Inventory : MonoBehaviour
 
             if(inventory.enabled)
             {
-                eye.enabled = false;
                 look.enabled = false;
                 move.enabled = false;
                 Cursor.lockState = CursorLockMode.None;
@@ -33,7 +31,6 @@ public class Inventory : MonoBehaviour
             }
             else
             {
-                eye.enabled = true;
                 look.enabled = true;
                 move.enabled = true;
                 Cursor.lockState = CursorLockMode.Locked;

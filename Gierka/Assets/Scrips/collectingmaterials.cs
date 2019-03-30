@@ -6,9 +6,9 @@ using TMPro;
 
 public class collectingmaterials : MonoBehaviour
 {
-    int woods = 0;
-    int sticks = 0;
-    int leafs = 0;
+    public int woods = 0;
+    public int sticks = 0;
+    public int leafs = 0;
     public TextMeshProUGUI textMesh1;
     public TextMeshProUGUI textMesh2;
     public TextMeshProUGUI textMesh3;
