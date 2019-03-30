@@ -5,6 +5,8 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     private Canvas inventory;
+    public PlayerLook look;
+    public PlayerMove move;
 
     void Start()
     {
@@ -22,11 +24,15 @@ public class Inventory : MonoBehaviour
 
             if(inventory.enabled)
             {
+                look.enabled = false;
+                move.enabled = false;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
             else
             {
+                look.enabled = true;
+                move.enabled = true;
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
             }
