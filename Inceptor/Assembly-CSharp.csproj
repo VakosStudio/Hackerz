@@ -75,7 +75,13 @@
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\Models\Survival_Pack_Low_Poly\Read-Me.txt" />
     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+<<<<<<< HEAD
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7689224207a90bfa97b89988f1da497ed37fdb7c
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Hackatron/Hackerz/Inceptor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -90,6 +96,28 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Hackatron/Hackerz/Inceptor/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+<<<<<<< HEAD
+=======
+=======
+    <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
+>>>>>>> 95259ec85b9be5b63d2acb78bff815279cfea5ee
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Inceptor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Inceptor/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Inceptor/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Inceptor/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Inceptor/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+>>>>>>> 47780d54195cc867ef033bb69d1de48704c33253
+>>>>>>> 7689224207a90bfa97b89988f1da497ed37fdb7c
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

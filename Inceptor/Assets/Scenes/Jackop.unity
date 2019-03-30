@@ -23,11 +23,11 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 1
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -37,8 +37,13 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
+<<<<<<< HEAD
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.373122, g: 0.38074183, b: 0.35872623, a: 1}
+=======
+  m_Sun: {fileID: 1754085374}
+  m_IndirectSpecularColor: {r: 0.37312284, g: 0.3807422, b: 0.35872623, a: 1}
+>>>>>>> 7689224207a90bfa97b89988f1da497ed37fdb7c
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -63,7 +68,8 @@ LightmapSettings:
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
     m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
     m_FinalGather: 0
@@ -347,7 +353,11 @@ Transform:
   m_GameObject: {fileID: 804991078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 10, y: 10, z: 10}
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> 7689224207a90bfa97b89988f1da497ed37fdb7c
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -418,6 +428,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &1170214598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -546,6 +557,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cdd7cb384892947813463471570e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+--- !u!108 &1754085374 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6727752650453330236, guid: e99cc0663df127b4ba2e187e428f4c43,
+    type: 3}
+  m_PrefabInstance: {fileID: 6727752649449777259}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> 7689224207a90bfa97b89988f1da497ed37fdb7c
 --- !u!1001 &2558642153861177001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -692,5 +711,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6727752649899846595, guid: e99cc0663df127b4ba2e187e428f4c43,
+        type: 3}
+      propertyPath: speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6727752649899846595, guid: e99cc0663df127b4ba2e187e428f4c43,
+        type: 3}
+      propertyPath: skybox
+      value: 
+      objectReference: {fileID: 2100000, guid: 8acbc9af43fa4a543a1ebe70acd17f17, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e99cc0663df127b4ba2e187e428f4c43, type: 3}
