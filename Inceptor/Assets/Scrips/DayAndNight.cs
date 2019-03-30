@@ -11,6 +11,10 @@ public class DayAndNight : MonoBehaviour
     public float minIntensity = 0f;
     public float maxAbient = 0.7f;
     public float minAbient = 0;
+    public float maxExposure = 1.2f;
+    public float minExposure = 0;
+
+    public Material skybox;
 
     public Color DayColor = new Color(80, 80, 80, 80);
     public Color NightColor = new Color(0, 0, 0, 250);

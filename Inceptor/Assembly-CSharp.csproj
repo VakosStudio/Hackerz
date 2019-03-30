@@ -71,7 +71,6 @@
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\Models\Survival_Pack_Low_Poly\Read-Me.txt" />
     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
-    <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Inceptor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
