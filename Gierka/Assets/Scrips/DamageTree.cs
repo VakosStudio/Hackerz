@@ -6,7 +6,7 @@ public class DamageTree : MonoBehaviour
 {
     public float Health = 5f;
     public GameObject destroyTree;
-    public collectingmaterials col;
+    public NumberOfWood wood;
 
     public void Damage(float dmg)
     {
@@ -22,6 +22,6 @@ public class DamageTree : MonoBehaviour
     {
         Destroy(gameObject);
         GameObject.Instantiate(destroyTree, destroyTree.transform.position + transform.position, transform.rotation);
-        col.collectingwoods();
+        wood.number += 3;
     }
 }

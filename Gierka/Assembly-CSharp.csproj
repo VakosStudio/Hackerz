@@ -60,15 +60,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrips\Add.cs" />
     <Compile Include="Assets\Scrips\AreaItems.cs" />
     <Compile Include="Assets\Scrips\collectingmaterials.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scrips\Creafting.cs" />
+=======
+    <Compile Include="Assets\Scrips\Craft.cs" />
+    <Compile Include="Assets\Scrips\CraftingUI.cs" />
+>>>>>>> bf191a214d92bb904aecdd1b96ba78e11d64690b
     <Compile Include="Assets\Scrips\DamageTree.cs" />
     <Compile Include="Assets\Scrips\DayAndNight.cs" />
     <Compile Include="Assets\Scrips\Eyes.cs" />
     <Compile Include="Assets\Scrips\InventorElements.cs" />
     <Compile Include="Assets\Scrips\Inventory.cs" />
     <Compile Include="Assets\Scrips\ItemsType.cs" />
+    <Compile Include="Assets\Scrips\NumberOfWood.cs" />
     <Compile Include="Assets\Scrips\PlayerLook.cs" />
     <Compile Include="Assets\Scrips\PlayerMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
