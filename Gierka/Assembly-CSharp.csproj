@@ -60,8 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrips\Add.cs" />
     <Compile Include="Assets\Scrips\AreaItems.cs" />
     <Compile Include="Assets\Scrips\collectingmaterials.cs" />
+    <Compile Include="Assets\Scrips\Craft.cs" />
+    <Compile Include="Assets\Scrips\CraftingUI.cs" />
     <Compile Include="Assets\Scrips\DamageTree.cs" />
     <Compile Include="Assets\Scrips\DayAndNight.cs" />
     <Compile Include="Assets\Scrips\Eyes.cs" />
@@ -69,6 +72,7 @@
     <Compile Include="Assets\Scrips\InventorElements.cs" />
     <Compile Include="Assets\Scrips\Inventory.cs" />
     <Compile Include="Assets\Scrips\ItemsType.cs" />
+    <Compile Include="Assets\Scrips\NumberOfWood.cs" />
     <Compile Include="Assets\Scrips\PlayerLook.cs" />
     <Compile Include="Assets\Scrips\PlayerMove.cs" />
     <Compile Include="Assets\Scrips\SettingsManager.cs" />
